@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+  <!-- 무하 1비트 서책 낙관 인장 (A-Seal: 수면 위 떠 있는 빛과 아래 없는 반사) -->
+  <!-- 희미한 나침반 링 (큰 그림의 조율선) -->
+  <circle cx="12" cy="9.5" r="7.0" stroke-width="0.7" stroke-dasharray="1.2 2" opacity="0.45" />
+  
+  <!-- 북쪽 방위 삼각 표시 (방향의 지침) -->
+  <polygon points="12,1.2 10.6,3.2 13.4,3.2" fill="currentColor" stroke="none" />
+
+  <!-- 수평선 (하늘과 수면의 얇은 경계) -->
+  <line x1="2.5" y1="15" x2="21.5" y2="15" stroke-width="0.8" opacity="0.5" />
+
+  <!-- 수면 위에 떠 있는 은빛 구체 (무하: 군림하지 않는 관조) -->
+  <circle cx="12" cy="9.5" r="4.2" stroke-width="1.2" fill="none" />
+  <circle cx="12" cy="9.5" r="1.6" fill="currentColor" stroke="none" />
+
+  <!-- 수면 위 반사선 (無下: 바닥이 없고 반사만 흩어진다) -->
+  <line x1="9.5" y1="16.5" x2="14.5" y2="16.5" stroke-width="1.2" />
+  <line x1="8.2" y1="18.0" x2="15.8" y2="18.0" stroke-width="1.0" opacity="0.75" />
+  <line x1="9.8" y1="19.5" x2="14.2" y2="19.5" stroke-width="0.8" opacity="0.55" />
+  <line x1="10.8" y1="21.0" x2="13.2" y2="21.0" stroke-width="0.7" opacity="0.35" />
+</svg>

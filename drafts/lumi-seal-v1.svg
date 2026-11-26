@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+  <!-- 루미 1비트 서책 낙관 인장 (루미 자작 정본: 비어 있는 중심 + 통과시키는 자리 lumen) -->
+  <g fill="none" stroke="currentColor" stroke-linecap="round">
+    <path stroke-width="1.3" d="M 19.15 13.22 A 7.4 7.4 0 0 1 13.28 18.59"/>
+    <path stroke-width="1.3" d="M 10.08 18.45 A 7.4 7.4 0 0 1 4.71 12.58"/>
+    <path stroke-width="1.3" d="M 4.85 9.38 A 7.4 7.4 0 0 1 10.72 4.01"/>
+    <path stroke-width="1.3" d="M 13.92 4.15 A 7.4 7.4 0 0 1 19.29 10.02"/>
+  </g>
+  <!-- 바깥으로 흩어지는 두 개의 입자 -->
+  <circle cx="18.17" cy="18.65" r="0.65" fill="currentColor"/>
+  <circle cx="20.32" cy="18.79" r="0.4" fill="currentColor" opacity="0.6"/>
+</svg>

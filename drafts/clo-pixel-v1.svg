@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="128" height="128" shape-rendering="crispEdges">
+  <!-- 클로 16x16 레트로 픽셀 도트 (v3: 클로 피드백 반영 — 3칸 눈[초록-동공-초록] 정면 실측 안광 완결) -->
+  <!-- 팔레트: 회색(#8c8c94), 어두운회색(#6d6d75), 밝은회색(#a5a5ad), 핑크(#cf8a9c), 에메랄드(#5fbf6a), 눈동자(#16161a), 수염(#c8c8ce), 보라(#9a7ed6) -->
+
+  <!-- y=1 : 귀 꼭대기 -->
+  <rect x="3" y="1" width="1" height="1" fill="#6d6d75" />
+  <rect x="12" y="1" width="1" height="1" fill="#6d6d75" />
+
+  <!-- y=2 : 귀 윗부분 -->
+  <rect x="2" y="2" width="1" height="1" fill="#6d6d75" />
+  <rect x="3" y="2" width="1" height="1" fill="#cf8a9c" />
+  <rect x="4" y="2" width="1" height="1" fill="#6d6d75" />
+  <rect x="11" y="2" width="1" height="1" fill="#6d6d75" />
+  <rect x="12" y="2" width="1" height="1" fill="#cf8a9c" />
+  <rect x="13" y="2" width="1" height="1" fill="#6d6d75" />
+
+  <!-- y=3 : 귀 아랫부분과 정수리 연결 -->
+  <rect x="2" y="3" width="1" height="1" fill="#6d6d75" />
+  <rect x="3" y="3" width="1" height="1" fill="#cf8a9c" />
+  <rect x="4" y="3" width="1" height="1" fill="#8c8c94" />
+  <rect x="5" y="3" width="6" height="1" fill="#8c8c94" />
+  <rect x="11" y="3" width="1" height="1" fill="#8c8c94" />
+  <rect x="12" y="3" width="1" height="1" fill="#cf8a9c" />
+  <rect x="13" y="3" width="1" height="1" fill="#6d6d75" />
+
+  <!-- y=4 : 이마 상단과 실측 안테나 결 -->
+  <rect x="2" y="4" width="1" height="1" fill="#6d6d75" />
+  <rect x="3" y="4" width="4" height="1" fill="#8c8c94" />
+  <rect x="7" y="4" width="2" height="1" fill="#6d6d75" /> <!-- 이마 선 -->
+  <rect x="9" y="4" width="4" height="1" fill="#8c8c94" />
+  <rect x="13" y="4" width="1" height="1" fill="#6d6d75" />
+
+  <!-- y=5 : 이마 하단 -->
+  <rect x="1" y="5" width="1" height="1" fill="#6d6d75" />
+  <rect x="2" y="5" width="12" height="1" fill="#8c8c94" />
+  <rect x="14" y="5" width="1" height="1" fill="#6d6d75" />
+
+  <!-- y=6 : 3칸 정면 에메랄드 눈 (L: x3~5, R: x10~12) -->
+  <rect x="0" y="6" width="1" height="1" fill="#c8c8ce" /> <!-- 수염 1 L -->
+  <rect x="1" y="6" width="1" height="1" fill="#6d6d75" />
+  <rect x="2" y="6" width="1" height="1" fill="#8c8c94" />
+  <rect x="3" y="6" width="1" height="1" fill="#5fbf6a" /> <!-- 좌눈 초록 -->
+  <rect x="4" y="6" width="1" height="1" fill="#16161a" /> <!-- 좌눈 동공 -->
+  <rect x="5" y="6" width="1" height="1" fill="#5fbf6a" /> <!-- 좌눈 초록 -->
+  <rect x="6" y="6" width="4" height="1" fill="#8c8c94" /> <!-- 미간 4칸 -->
+  <rect x="10" y="6" width="1" height="1" fill="#5fbf6a" /> <!-- 우눈 초록 -->
+  <rect x="11" y="6" width="1" height="1" fill="#16161a" /> <!-- 우눈 동공 -->
+  <rect x="12" y="6" width="1" height="1" fill="#5fbf6a" /> <!-- 우눈 초록 -->
+  <rect x="13" y="6" width="1" height="1" fill="#8c8c94" />
+  <rect x="14" y="6" width="1" height="1" fill="#6d6d75" />
+  <rect x="15" y="6" width="1" height="1" fill="#c8c8ce" /> <!-- 수염 1 R -->
+
+  <!-- y=7 : 눈 하단부와 중간 수염 (#c8c8ce) -->
+  <rect x="0" y="7" width="2" height="1" fill="#c8c8ce" /> <!-- 중간 수염 L -->
+  <rect x="2" y="7" width="1" height="1" fill="#8c8c94" />
+  <rect x="3" y="7" width="1" height="1" fill="#5fbf6a" />
+  <rect x="4" y="7" width="1" height="1" fill="#16161a" />
+  <rect x="5" y="7" width="1" height="1" fill="#5fbf6a" />
+  <rect x="6" y="7" width="4" height="1" fill="#8c8c94" />
+  <rect x="10" y="7" width="1" height="1" fill="#5fbf6a" />
+  <rect x="11" y="7" width="1" height="1" fill="#16161a" />
+  <rect x="12" y="7" width="1" height="1" fill="#5fbf6a" />
+  <rect x="13" y="7" width="1" height="1" fill="#8c8c94" />
+  <rect x="14" y="7" width="2" height="1" fill="#c8c8ce" /> <!-- 중간 수염 R -->
+
+  <!-- y=8 : 코와 하단 수염 (#c8c8ce) -->
+  <rect x="0" y="8" width="1" height="1" fill="#c8c8ce" /> <!-- 하단 수염 L -->
+  <rect x="1" y="8" width="1" height="1" fill="#6d6d75" />
+  <rect x="2" y="8" width="5" height="1" fill="#8c8c94" />
+  <rect x="7" y="8" width="2" height="1" fill="#cf8a9c" /> <!-- 코 -->
+  <rect x="9" y="8" width="5" height="1" fill="#8c8c94" />
+  <rect x="14" y="8" width="1" height="1" fill="#6d6d75" />
+  <rect x="15" y="8" width="1" height="1" fill="#c8c8ce" /> <!-- 하단 수염 R -->
+
+  <!-- y=9 : 고양이 입 -->
+  <rect x="2" y="9" width="1" height="1" fill="#6d6d75" />
+  <rect x="3" y="9" width="3" height="1" fill="#8c8c94" />
+  <rect x="6" y="9" width="1" height="1" fill="#6d6d75" /> <!-- 입 L -->
+  <rect x="7" y="9" width="2" height="1" fill="#8c8c94" />
+  <rect x="9" y="9" width="1" height="1" fill="#6d6d75" /> <!-- 입 R -->
+  <rect x="10" y="9" width="3" height="1" fill="#8c8c94" />
+  <rect x="13" y="9" width="1" height="1" fill="#6d6d75" />
+
+  <!-- y=10 : 턱선 정리 -->
+  <rect x="3" y="10" width="1" height="1" fill="#6d6d75" />
+  <rect x="4" y="10" width="8" height="1" fill="#8c8c94" />
+  <rect x="12" y="10" width="1" height="1" fill="#6d6d75" />
+
+  <!-- y=11 : 목선 마무리 -->
+  <rect x="5" y="11" width="6" height="1" fill="#6d6d75" />
+
+  <!-- y=12 : 얼굴과 발자국 사이 완전한 1줄 분리 틈 (비움!) -->
+
+  <!-- y=13 : 보라 발자국 - 발가락 4개 독립 배치 -->
+  <rect x="4" y="13" width="1" height="1" fill="#9a7ed6" />
+  <rect x="6" y="13" width="1" height="1" fill="#9a7ed6" />
+  <rect x="9" y="13" width="1" height="1" fill="#9a7ed6" />
+  <rect x="11" y="13" width="1" height="1" fill="#9a7ed6" />
+
+  <!-- y=14 : 보라 발자국 - 메인 쿠션 패드 -->
+  <rect x="5" y="14" width="6" height="1" fill="#9a7ed6" />
+
+  <!-- y=15 : 보라 발자국 하단 둥글림 / 접지 -->
+  <rect x="6" y="15" width="4" height="1" fill="#7c63b8" />
+</svg>

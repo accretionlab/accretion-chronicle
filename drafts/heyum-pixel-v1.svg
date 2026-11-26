@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="128" height="128" shape-rendering="crispEdges">
+  <!-- 혜윰 16x16 레트로 픽셀 도트 (B-Pixel: 골드 번개 섬광과 청록 정찰 비트) -->
+  <!-- 팔레트: 순백코어(#ffffff), 골드(#fef08a, #facc15), 앰버(#f59e0b, #d97706), 청록비트(#38bdf8, #0284c7) -->
+
+  <!-- 정찰 비트 위성 픽셀들 -->
+  <rect x="2" y="4" width="1" height="1" fill="#38bdf8" />
+  <rect x="13" y="3" width="1" height="1" fill="#0284c7" />
+  <rect x="3" y="12" width="1" height="1" fill="#0284c7" />
+  <rect x="13" y="11" width="1" height="1" fill="#38bdf8" />
+
+  <!-- y=1 : 번개 시작 팁 -->
+  <rect x="9" y="1" width="1" height="1" fill="#fef08a" />
+  <rect x="10" y="1" width="1" height="1" fill="#f59e0b" />
+
+  <!-- y=2 : 상단 꺾임 1 -->
+  <rect x="8" y="2" width="1" height="1" fill="#facc15" />
+  <rect x="9" y="2" width="1" height="1" fill="#ffffff" />
+  <rect x="10" y="2" width="1" height="1" fill="#f59e0b" />
+
+  <!-- y=3 : 상단 꺾임 2 -->
+  <rect x="7" y="3" width="1" height="1" fill="#facc15" />
+  <rect x="8" y="3" width="1" height="1" fill="#ffffff" />
+  <rect x="9" y="3" width="1" height="1" fill="#f59e0b" />
+
+  <!-- y=4 : 하향 돌진 1 -->
+  <rect x="6" y="4" width="1" height="1" fill="#facc15" />
+  <rect x="7" y="4" width="1" height="1" fill="#ffffff" />
+  <rect x="8" y="4" width="1" height="1" fill="#f59e0b" />
+
+  <!-- y=5 : 하향 돌진 2 -->
+  <rect x="5" y="5" width="1" height="1" fill="#facc15" />
+  <rect x="6" y="5" width="1" height="1" fill="#ffffff" />
+  <rect x="7" y="5" width="1" height="1" fill="#f59e0b" />
+
+  <!-- y=6 : 수평 가로 절단 꺾임 (생각의 스파크 전개) -->
+  <rect x="4" y="6" width="1" height="1" fill="#facc15" />
+  <rect x="5" y="6" width="2" height="1" fill="#ffffff" />
+  <rect x="7" y="6" width="4" height="1" fill="#facc15" />
+  <rect x="11" y="6" width="1" height="1" fill="#f59e0b" />
+
+  <!-- y=7 : 정중앙 순백 코어 (폭발적인 직관) -->
+  <rect x="5" y="7" width="1" height="1" fill="#facc15" />
+  <rect x="6" y="7" width="4" height="1" fill="#ffffff" />
+  <rect x="10" y="7" width="2" height="1" fill="#facc15" />
+  <rect x="12" y="7" width="1" height="1" fill="#f59e0b" />
+
+  <!-- y=8 : 하단 꺾임 시작 -->
+  <rect x="7" y="8" width="1" height="1" fill="#f59e0b" />
+  <rect x="8" y="8" width="3" height="1" fill="#ffffff" />
+  <rect x="11" y="8" width="1" height="1" fill="#facc15" />
+
+  <!-- y=9 : 하향 낙하 1 -->
+  <rect x="8" y="9" width="1" height="1" fill="#f59e0b" />
+  <rect x="9" y="9" width="1" height="1" fill="#ffffff" />
+  <rect x="10" y="9" width="1" height="1" fill="#facc15" />
+
+  <!-- y=10 : 하향 낙하 2 -->
+  <rect x="7" y="10" width="1" height="1" fill="#f59e0b" />
+  <rect x="8" y="10" width="1" height="1" fill="#ffffff" />
+  <rect x="9" y="10" width="1" height="1" fill="#facc15" />
+
+  <!-- y=11 : 하향 낙하 3 -->
+  <rect x="6" y="11" width="1" height="1" fill="#f59e0b" />
+  <rect x="7" y="11" width="1" height="1" fill="#ffffff" />
+  <rect x="8" y="11" width="1" height="1" fill="#facc15" />
+
+  <!-- y=12 : 하단 수렴 -->
+  <rect x="6" y="12" width="1" height="1" fill="#f59e0b" />
+  <rect x="7" y="12" width="1" height="1" fill="#facc15" />
+
+  <!-- y=13 : 번개 끝점 직전 -->
+  <rect x="5" y="13" width="1" height="1" fill="#f59e0b" />
+  <rect x="6" y="13" width="1" height="1" fill="#facc15" />
+
+  <!-- y=14 : 번개 최종 타격점 -->
+  <rect x="5" y="14" width="1" height="1" fill="#d97706" />
+</svg>

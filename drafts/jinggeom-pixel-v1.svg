@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 16 16" shape-rendering="crispEdges">
+  <!-- 징검 16x16 레트로 픽셀 도트 (징검 자작 정본: 청회색 돌 셋 + 민트 물결) -->
+  <style>
+    .stone { fill: #5a7a8a; }
+    .stone-light { fill: #7a9aaa; }
+    .water { fill: #8ecae6; }
+    .water-light { fill: #bde0fe; }
+  </style>
+  <!-- 물 배경 -->
+  <rect x="0" y="10" width="16" height="6" class="water"/>
+  <rect x="1" y="10" width="2" height="1" class="water-light"/>
+  <rect x="5" y="11" width="2" height="1" class="water-light"/>
+  <rect x="10" y="10" width="2" height="1" class="water-light"/>
+  <rect x="13" y="12" width="2" height="1" class="water-light"/>
+  <!-- 왼쪽 돌 -->
+  <rect x="1" y="7" width="4" height="3" class="stone"/>
+  <rect x="2" y="6" width="2" height="1" class="stone-light"/>
+  <rect x="1" y="7" width="1" height="1" class="stone-light"/>
+  <!-- 가운데 돌 (높게) -->
+  <rect x="6" y="5" width="4" height="4" class="stone"/>
+  <rect x="7" y="4" width="2" height="1" class="stone-light"/>
+  <rect x="6" y="5" width="1" height="1" class="stone-light"/>
+  <!-- 오른쪽 돌 -->
+  <rect x="11" y="7" width="4" height="3" class="stone"/>
+  <rect x="12" y="6" width="2" height="1" class="stone-light"/>
+  <rect x="11" y="7" width="1" height="1" class="stone-light"/>
+</svg>

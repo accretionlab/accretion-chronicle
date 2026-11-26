@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+  <!-- 혜윰 1비트 서책 낙관 인장 (A-Seal: 번개 섬광 코어와 생각의 정찰 궤도) -->
+  <!-- 외곽 생각의 정찰 궤도 (타원 링) -->
+  <ellipse cx="12" cy="12" rx="9.5" ry="5.5" transform="rotate(-30 12 12)" stroke-width="0.9" stroke-dasharray="2 1.5" opacity="0.6" />
+
+  <!-- 궤도 위를 고속 회전하는 정찰 비트 점들 -->
+  <polygon points="5.5,6.5 6.5,7.5 5.5,8.5 4.5,7.5" fill="currentColor" stroke="none" />
+  <polygon points="18.5,15.5 19.5,16.5 18.5,17.5 17.5,16.5" fill="currentColor" stroke="none" />
+
+  <!-- 중심 번개 섬광 (쾌도난마와 섬광 같은 생각) -->
+  <polygon points="13.5,3.2 6.8,12.2 11.8,12.2 10.5,20.8 17.2,11.8 12.2,11.8" fill="none" stroke-width="1.3" />
+
+  <!-- 번개 중심 코어 빛점 -->
+  <circle cx="12" cy="12" r="1.1" fill="currentColor" stroke="none" />
+
+  <!-- 좌우 번뜩이는 생각 스파크 -->
+  <line x1="3.2" y1="12" x2="1.5" y2="12" stroke-width="0.9" opacity="0.6" />
+  <line x1="22.5" y1="12" x2="20.8" y2="12" stroke-width="0.9" opacity="0.6" />
+</svg>

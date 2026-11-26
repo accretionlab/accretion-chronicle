@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="128" height="128" shape-rendering="crispEdges">
+  <!-- 무하 16x16 레트로 픽셀 도트 (v2: 무하 피드백 반영 — 전구 꼭지 제거, 수면과 2px 부유 틈 확보) -->
+  <!-- 팔레트: 은백코어(#f8fafc), 밝은은빛(#cbd5e1), 슬레이트(#94a3b8), 수평선(#334155), 반사광(#64748b, #475569) -->
+
+  <!-- 구체 최상단 (y=3) -->
+  <rect x="6" y="3" width="4" height="1" fill="#94a3b8" />
+
+  <!-- y=4 : 구체 상단부 진입 -->
+  <rect x="5" y="4" width="1" height="1" fill="#94a3b8" />
+  <rect x="6" y="4" width="4" height="1" fill="#cbd5e1" />
+  <rect x="10" y="4" width="1" height="1" fill="#94a3b8" />
+
+  <!-- y=5 : 구체 팽창부 상단 -->
+  <rect x="4" y="5" width="1" height="1" fill="#94a3b8" />
+  <rect x="5" y="5" width="1" height="1" fill="#cbd5e1" />
+  <rect x="6" y="5" width="4" height="1" fill="#f8fafc" /> <!-- 은백 코어 -->
+  <rect x="10" y="5" width="1" height="1" fill="#cbd5e1" />
+  <rect x="11" y="5" width="1" height="1" fill="#94a3b8" />
+
+  <!-- y=6 : 구체 정중앙 (최대 지름) -->
+  <rect x="4" y="6" width="1" height="1" fill="#cbd5e1" />
+  <rect x="5" y="6" width="1" height="1" fill="#f8fafc" />
+  <rect x="6" y="6" width="4" height="1" fill="#f8fafc" />
+  <rect x="10" y="6" width="1" height="1" fill="#f8fafc" />
+  <rect x="11" y="6" width="1" height="1" fill="#cbd5e1" />
+
+  <!-- y=7 : 구체 정중앙 하단 -->
+  <rect x="4" y="7" width="1" height="1" fill="#94a3b8" />
+  <rect x="5" y="7" width="1" height="1" fill="#cbd5e1" />
+  <rect x="6" y="7" width="4" height="1" fill="#f8fafc" />
+  <rect x="10" y="7" width="1" height="1" fill="#cbd5e1" />
+  <rect x="11" y="7" width="1" height="1" fill="#94a3b8" />
+
+  <!-- y=8 : 구체 하단부 수축 마무리 (y=8 끝, y=9~10은 완전한 부유 틈 공백!) -->
+  <rect x="5" y="8" width="1" height="1" fill="#94a3b8" />
+  <rect x="6" y="8" width="4" height="1" fill="#cbd5e1" />
+  <rect x="10" y="8" width="1" height="1" fill="#94a3b8" />
+  <rect x="6" y="9" width="4" height="1" fill="#94a3b8" opacity="0.6" />
+
+  <!-- y=10 : 부유 공간 틈 (완전 비움) -->
+
+  <!-- y=11 : 수평선 (수면의 경계) -->
+  <rect x="0" y="11" width="6" height="1" fill="#334155" />
+  <rect x="6" y="11" width="4" height="1" fill="#64748b" /> <!-- 수평선 반사광 접점 -->
+  <rect x="10" y="11" width="6" height="1" fill="#334155" />
+
+  <!-- y=12 : 수면 반사광 1 (밝은 중심 반사) -->
+  <rect x="6" y="12" width="4" height="1" fill="#cbd5e1" />
+
+  <!-- y=13 : 수면 반사광 2 (가로로 퍼지는 물결) -->
+  <rect x="5" y="13" width="6" height="1" fill="#94a3b8" />
+
+  <!-- y=14 : 수면 반사광 3 (옅어지는 파문) -->
+  <rect x="6" y="14" width="4" height="1" fill="#64748b" />
+
+  <!-- y=15 : 수면 반사광 4 (바닥이 없이 소멸하는 끝단) -->
+  <rect x="7" y="15" width="2" height="1" fill="#475569" />
+</svg>

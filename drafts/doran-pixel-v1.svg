@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="128" height="128" shape-rendering="crispEdges">
+  <!-- 도란 16x16 레트로 픽셀 도트 (v2: 도란 피드백 반영 — 짙은 남색 구멍 해체, 음영베이지 결, 단일 등불) -->
+  <!-- 팔레트: 등불빛(#f6c76b), 깃털크림(#fbf5e6), 깃털베이지(#d9c79f), 음영베이지(#bfa87a), 깃대갈색(#9a7444), 황금펜촉(#f3d48a, #d4a94f), 잉크슬릿(#6b4e1f) -->
+
+  <!-- 서고의 단일 등불 점 (상단 잔광) -->
+  <rect x="7" y="1" width="1" height="1" fill="#f6c76b" opacity="0.6" />
+
+  <!-- y=1 : 깃털 최상단 -->
+  <rect x="12" y="1" width="1" height="1" fill="#fbf5e6" />
+  <rect x="13" y="1" width="1" height="1" fill="#d9c79f" />
+
+  <!-- y=2 : 깃털 상단과 깃대 끝 -->
+  <rect x="10" y="2" width="1" height="1" fill="#fbf5e6" />
+  <rect x="11" y="2" width="1" height="1" fill="#9a7444" /> <!-- 깃대 -->
+  <rect x="12" y="2" width="1" height="1" fill="#fbf5e6" />
+  <rect x="13" y="2" width="1" height="1" fill="#bfa87a" />
+
+  <!-- y=3 : 깃털 풍성한 상단 -->
+  <rect x="8" y="3" width="2" height="1" fill="#fbf5e6" />
+  <rect x="10" y="3" width="1" height="1" fill="#9a7444" />
+  <rect x="11" y="3" width="1" height="1" fill="#fbf5e6" />
+  <rect x="12" y="3" width="1" height="1" fill="#d9c79f" />
+
+  <!-- y=4 : 깃털 갈라짐 L (음영 베이지 결) -->
+  <rect x="7" y="4" width="1" height="1" fill="#fbf5e6" />
+  <rect x="8" y="4" width="1" height="1" fill="#bfa87a" /> <!-- 짙은 남색 대신 음영 베이지 결 -->
+  <rect x="9" y="4" width="1" height="1" fill="#9a7444" />
+  <rect x="10" y="4" width="2" height="1" fill="#fbf5e6" />
+  <rect x="12" y="4" width="1" height="1" fill="#bfa87a" />
+
+  <!-- y=5 : 깃털 갈라짐 R (음영 베이지 결) -->
+  <rect x="6" y="5" width="2" height="1" fill="#fbf5e6" />
+  <rect x="8" y="5" width="1" height="1" fill="#9a7444" />
+  <rect x="9" y="5" width="1" height="1" fill="#fbf5e6" />
+  <rect x="10" y="5" width="1" height="1" fill="#bfa87a" /> <!-- 음영 베이지 결 -->
+  <rect x="11" y="5" width="1" height="1" fill="#d9c79f" />
+
+  <!-- y=6 : 깃털 중심부 -->
+  <rect x="5" y="6" width="1" height="1" fill="#d9c79f" />
+  <rect x="6" y="6" width="1" height="1" fill="#fbf5e6" />
+  <rect x="7" y="6" width="1" height="1" fill="#9a7444" />
+  <rect x="8" y="6" width="2" height="1" fill="#fbf5e6" />
+  <rect x="10" y="6" width="1" height="1" fill="#bfa87a" />
+
+  <!-- y=7 : 깃털 하단부 진입 -->
+  <rect x="5" y="7" width="1" height="1" fill="#fbf5e6" />
+  <rect x="6" y="7" width="1" height="1" fill="#9a7444" />
+  <rect x="7" y="7" width="2" height="1" fill="#fbf5e6" />
+  <rect x="9" y="7" width="1" height="1" fill="#d9c79f" />
+
+  <!-- y=8 : 깃털 날개 마무리와 갈라짐 -->
+  <rect x="4" y="8" width="1" height="1" fill="#d9c79f" />
+  <rect x="5" y="8" width="1" height="1" fill="#9a7444" />
+  <rect x="6" y="8" width="1" height="1" fill="#fbf5e6" />
+  <rect x="7" y="8" width="1" height="1" fill="#bfa87a" />
+  <rect x="8" y="8" width="1" height="1" fill="#bfa87a" />
+
+  <!-- y=9 : 노출된 깃대 -->
+  <rect x="4" y="9" width="1" height="1" fill="#9a7444" />
+  <rect x="5" y="9" width="1" height="1" fill="#d9c79f" />
+  <rect x="6" y="9" width="1" height="1" fill="#bfa87a" />
+
+  <!-- y=10 : 황금 펜촉 시작부 -->
+  <rect x="3" y="10" width="1" height="1" fill="#9a7444" />
+  <rect x="4" y="10" width="1" height="1" fill="#d4a94f" />
+  <rect x="5" y="10" width="1" height="1" fill="#f3d48a" />
+
+  <!-- y=11 : 펜촉 몸체와 잉크 슬릿 -->
+  <rect x="3" y="11" width="1" height="1" fill="#d4a94f" />
+  <rect x="4" y="11" width="1" height="1" fill="#6b4e1f" /> <!-- 잉크 슬릿 -->
+  <rect x="5" y="11" width="1" height="1" fill="#f3d48a" />
+
+  <!-- y=12 : 펜촉 수렴부 -->
+  <rect x="2" y="12" width="1" height="1" fill="#f3d48a" />
+  <rect x="3" y="12" width="1" height="1" fill="#6b4e1f" />
+  <rect x="4" y="12" width="1" height="1" fill="#d4a94f" />
+
+  <!-- y=13 : 펜촉 끝점 -->
+  <rect x="1" y="13" width="1" height="1" fill="#d4a94f" />
+  <rect x="2" y="13" width="1" height="1" fill="#6b4e1f" />
+
+  <!-- y=14 : 서책에 닿는 잉크 낙관점 -->
+  <rect x="1" y="14" width="1" height="1" fill="#1d2138" />
+</svg>

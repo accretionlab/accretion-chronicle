@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="128" height="128" shape-rendering="crispEdges">
+  <!-- 뇨끼 픽셀 스프라이트 안 1 (16x16 납작이 블롭 빵떡) -->
+  <!-- 베이지 빵떡 (#e8d5a8, #fef3c7, #d4bf8e), 분홍 뺨 (#f4b8bc), 눈 (#2a2420) -->
+  
+  <!-- 상단 완만한 블롭 라운딩 (y=4) -->
+  <rect x="5" y="4" width="6" height="1" fill="#d4bf8e" />
+
+  <!-- y=5 -->
+  <rect x="3" y="5" width="2" height="1" fill="#d4bf8e" />
+  <rect x="5" y="5" width="6" height="1" fill="#fef3c7" />
+  <rect x="11" y="5" width="2" height="1" fill="#d4bf8e" />
+
+  <!-- y=6 -->
+  <rect x="2" y="6" width="1" height="1" fill="#d4bf8e" />
+  <rect x="3" y="6" width="10" height="1" fill="#e8d5a8" />
+  <rect x="13" y="6" width="1" height="1" fill="#d4bf8e" />
+
+  <!-- y=7 (눈) -->
+  <rect x="2" y="7" width="1" height="1" fill="#d4bf8e" />
+  <rect x="3" y="7" width="2" height="1" fill="#e8d5a8" />
+  <rect x="5" y="7" width="1" height="1" fill="#2a2420" /> <!-- 눈 L -->
+  <rect x="6" y="7" width="4" height="1" fill="#e8d5a8" />
+  <rect x="10" y="7" width="1" height="1" fill="#2a2420" /> <!-- 눈 R -->
+  <rect x="11" y="7" width="2" height="1" fill="#e8d5a8" />
+  <rect x="13" y="7" width="1" height="1" fill="#d4bf8e" />
+
+  <!-- y=8 (뺨과 입) -->
+  <rect x="1" y="8" width="1" height="1" fill="#d4bf8e" />
+  <rect x="2" y="8" width="1" height="1" fill="#e8d5a8" />
+  <rect x="3" y="8" width="2" height="1" fill="#f4b8bc" /> <!-- 볼터치 L -->
+  <rect x="5" y="8" width="2" height="1" fill="#e8d5a8" />
+  <rect x="7" y="8" width="2" height="1" fill="#8a7355" /> <!-- 중립 입 -->
+  <rect x="9" y="8" width="2" height="1" fill="#e8d5a8" />
+  <rect x="11" y="8" width="2" height="1" fill="#f4b8bc" /> <!-- 볼터치 R -->
+  <rect x="13" y="8" width="1" height="1" fill="#e8d5a8" />
+  <rect x="14" y="8" width="1" height="1" fill="#d4bf8e" />
+
+  <!-- y=9 (몸통 하단부 - 가로로 넓어짐 scaleX > scaleY) -->
+  <rect x="1" y="9" width="1" height="1" fill="#d4bf8e" />
+  <rect x="2" y="9" width="12" height="1" fill="#e8d5a8" />
+  <rect x="14" y="9" width="1" height="1" fill="#d4bf8e" />
+
+  <!-- y=10 (몸통 볼륨 그림자) -->
+  <rect x="2" y="10" width="2" height="1" fill="#d4bf8e" />
+  <rect x="4" y="10" width="8" height="1" fill="#d4bf8e" />
+  <rect x="12" y="10" width="2" height="1" fill="#d4bf8e" />
+
+  <!-- y=11 (하단 마감) -->
+  <rect x="4" y="11" width="8" height="1" fill="#d4bf8e" />
+
+  <!-- 바닥 그림자 (y=13, HOVER_Y 부유감 표시) -->
+  <rect x="4" y="13" width="8" height="1" fill="#d1c7b7" />
+  <rect x="5" y="14" width="6" height="1" fill="#d1c7b7" opacity="0.6" />
+</svg>
